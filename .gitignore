@@ -1,0 +1,29 @@
+# Python Bytecode & Environments
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.env
+
+# Large Raw Datasets (Exceeds GitHub Free 100MB / LFS Quota)
+*.zip
+terraflood/data/roads/*.dbf
+terraflood/data/roads/*.shp
+terraflood/data/roads/*.shx
+terraflood/data/roads/*.cpg
+terraflood/data/roads/*.prj
+
+# Runtime Cache & Exports
+terraflood/cache/
+terraflood/exports/
+*.tif
+*.tiff
+test.pdf
+
+# IDE and OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/

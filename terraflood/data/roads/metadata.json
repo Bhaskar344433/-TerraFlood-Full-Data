@@ -1,0 +1,581 @@
+{
+  "type": "Feature",
+  "stac_version": "1.1.0",
+  "stac_extensions": [
+    "https://stac-extensions.github.io/projection/v2.0.0/schema.json",
+    "https://stac-extensions.github.io/table/v1.2.0/schema.json"
+  ],
+  "id": "hotosm_npl_roads-osm",
+  "geometry": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          80.0576413,
+          26.3474541
+        ],
+        [
+          88.2543258,
+          26.3474541
+        ],
+        [
+          88.2543258,
+          30.4334339
+        ],
+        [
+          80.0576413,
+          30.4334339
+        ],
+        [
+          80.0576413,
+          26.3474541
+        ]
+      ]
+    ]
+  },
+  "bbox": [
+    80.0576413,
+    26.3474541,
+    88.2543258,
+    30.4334339
+  ],
+  "properties": {
+    "oex:category": "roads",
+    "oex:source": "osm",
+    "oex:dataset_source": "OpenStreetMap (Geofabrik NPL 2026-10-07)",
+    "oex:snapshot": "2026-10-07",
+    "oex:boundary": "geoBoundaries gbOpen ADM0",
+    "oex:version": "0.4.15",
+    "oex:pcode_source_date": "2025-07-29",
+    "oex:geometry_types": {
+      "LINESTRING": 608970,
+      "POINT": 4927,
+      "POLYGON": 190
+    },
+    "title": "Roads of Nepal",
+    "description": "614,087 features: 608,970 lines, 4,927 points, 190 polygons. 1 of 13 attributes are filled for at least half of the features.",
+    "license": "ODbL-1.0",
+    "created": "2026-10-07T17:45:46Z",
+    "keywords": [
+      "geodata",
+      "roads",
+      "transportation"
+    ],
+    "providers": [
+      {
+        "name": "OpenStreetMap (Geofabrik NPL 2026-10-07)",
+        "roles": [
+          "producer",
+          "licensor"
+        ]
+      }
+    ],
+    "proj:code": "EPSG:4326",
+    "table:row_count": 614087,
+    "table:primary_geometry": "geom",
+    "table:columns": [
+      {
+        "name": "id",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 614087,
+        "oex:top_values": []
+      },
+      {
+        "name": "name",
+        "type": "VARCHAR",
+        "oex:null_count": 593382,
+        "oex:null_percent": 96.63,
+        "oex:distinct_count": 9886,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_en",
+        "type": "VARCHAR",
+        "oex:null_count": 610582,
+        "oex:null_percent": 99.43,
+        "oex:distinct_count": 1619,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_ne",
+        "type": "VARCHAR",
+        "oex:null_count": 610630,
+        "oex:null_percent": 99.44,
+        "oex:distinct_count": 1362,
+        "oex:top_values": []
+      },
+      {
+        "name": "highway",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 55,
+        "oex:top_values": [
+          {
+            "value": "path",
+            "count": 262804
+          },
+          {
+            "value": "residential",
+            "count": 112387
+          },
+          {
+            "value": "track",
+            "count": 90140
+          },
+          {
+            "value": "unclassified",
+            "count": 87265
+          },
+          {
+            "value": "service",
+            "count": 21323
+          }
+        ]
+      },
+      {
+        "name": "surface",
+        "type": "VARCHAR",
+        "oex:null_count": 542323,
+        "oex:null_percent": 88.31,
+        "oex:distinct_count": 79,
+        "oex:top_values": [
+          {
+            "value": "ground",
+            "count": 39494
+          },
+          {
+            "value": "unpaved",
+            "count": 18670
+          },
+          {
+            "value": "asphalt",
+            "count": 3934
+          },
+          {
+            "value": "dirt",
+            "count": 2042
+          },
+          {
+            "value": "gravel",
+            "count": 2040
+          }
+        ]
+      },
+      {
+        "name": "smoothness",
+        "type": "VARCHAR",
+        "oex:null_count": 606821,
+        "oex:null_percent": 98.82,
+        "oex:distinct_count": 13,
+        "oex:top_values": [
+          {
+            "value": "bad",
+            "count": 3846
+          },
+          {
+            "value": "intermediate",
+            "count": 1338
+          },
+          {
+            "value": "very_bad",
+            "count": 879
+          },
+          {
+            "value": "good",
+            "count": 521
+          },
+          {
+            "value": "horrible",
+            "count": 257
+          }
+        ]
+      },
+      {
+        "name": "width",
+        "type": "VARCHAR",
+        "oex:null_count": 608417,
+        "oex:null_percent": 99.08,
+        "oex:distinct_count": 128,
+        "oex:top_values": [
+          {
+            "value": "3",
+            "count": 968
+          },
+          {
+            "value": "4",
+            "count": 791
+          },
+          {
+            "value": "7",
+            "count": 570
+          },
+          {
+            "value": "5",
+            "count": 517
+          },
+          {
+            "value": "6",
+            "count": 504
+          }
+        ]
+      },
+      {
+        "name": "lanes",
+        "type": "VARCHAR",
+        "oex:null_count": 606241,
+        "oex:null_percent": 98.72,
+        "oex:distinct_count": 8,
+        "oex:top_values": [
+          {
+            "value": "2",
+            "count": 6306
+          },
+          {
+            "value": "1",
+            "count": 1314
+          },
+          {
+            "value": "4",
+            "count": 173
+          },
+          {
+            "value": "3",
+            "count": 28
+          },
+          {
+            "value": "6",
+            "count": 11
+          }
+        ]
+      },
+      {
+        "name": "oneway",
+        "type": "VARCHAR",
+        "oex:null_count": 610056,
+        "oex:null_percent": 99.34,
+        "oex:distinct_count": 3,
+        "oex:top_values": [
+          {
+            "value": "no",
+            "count": 2354
+          },
+          {
+            "value": "yes",
+            "count": 1674
+          },
+          {
+            "value": "-1",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "name": "bridge",
+        "type": "VARCHAR",
+        "oex:null_count": 596758,
+        "oex:null_percent": 97.18,
+        "oex:distinct_count": 19,
+        "oex:top_values": [
+          {
+            "value": "yes",
+            "count": 17218
+          },
+          {
+            "value": "low_water_crossing",
+            "count": 30
+          },
+          {
+            "value": "boardwalk",
+            "count": 23
+          },
+          {
+            "value": "cantilever",
+            "count": 17
+          },
+          {
+            "value": "construction",
+            "count": 7
+          }
+        ]
+      },
+      {
+        "name": "layer",
+        "type": "VARCHAR",
+        "oex:null_count": 596570,
+        "oex:null_percent": 97.15,
+        "oex:distinct_count": 10,
+        "oex:top_values": [
+          {
+            "value": "1",
+            "count": 16835
+          },
+          {
+            "value": "-1",
+            "count": 632
+          },
+          {
+            "value": "2",
+            "count": 36
+          },
+          {
+            "value": "4",
+            "count": 3
+          },
+          {
+            "value": "-3",
+            "count": 3
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "type": "VARCHAR",
+        "oex:null_count": 614087,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm0_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "NPL",
+            "count": 614087
+          }
+        ]
+      },
+      {
+        "name": "adm0_name",
+        "type": "VARCHAR",
+        "oex:null_count": 0,
+        "oex:null_percent": 0.0,
+        "oex:distinct_count": 1,
+        "oex:top_values": [
+          {
+            "value": "Nepal",
+            "count": 614087
+          }
+        ]
+      },
+      {
+        "name": "adm1_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 7,
+        "oex:top_values": [
+          {
+            "value": "NP03",
+            "count": 162904
+          },
+          {
+            "value": "NP01",
+            "count": 120490
+          },
+          {
+            "value": "NP05",
+            "count": 86428
+          },
+          {
+            "value": "NP04",
+            "count": 74176
+          },
+          {
+            "value": "NP02",
+            "count": 71620
+          }
+        ]
+      },
+      {
+        "name": "adm1_name",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 7,
+        "oex:top_values": [
+          {
+            "value": "Bagmati",
+            "count": 162904
+          },
+          {
+            "value": "Koshi",
+            "count": 120490
+          },
+          {
+            "value": "Lumbini",
+            "count": 86428
+          },
+          {
+            "value": "Gandaki",
+            "count": 74176
+          },
+          {
+            "value": "Madhesh",
+            "count": 71620
+          }
+        ]
+      },
+      {
+        "name": "adm2_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 77,
+        "oex:top_values": [
+          {
+            "value": "NP0327",
+            "count": 29050
+          },
+          {
+            "value": "NP0104",
+            "count": 27014
+          },
+          {
+            "value": "NP0105",
+            "count": 25774
+          },
+          {
+            "value": "NP0331",
+            "count": 20133
+          },
+          {
+            "value": "NP0335",
+            "count": 18286
+          }
+        ]
+      },
+      {
+        "name": "adm2_name",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 77,
+        "oex:top_values": [
+          {
+            "value": "Kathmandu",
+            "count": 29050
+          },
+          {
+            "value": "Jhapa",
+            "count": 27014
+          },
+          {
+            "value": "Morang",
+            "count": 25774
+          },
+          {
+            "value": "Makwanpur",
+            "count": 20133
+          },
+          {
+            "value": "Chitawan",
+            "count": 18286
+          }
+        ]
+      },
+      {
+        "name": "adm3_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 774,
+        "oex:top_values": [
+          {
+            "value": "NP0327101",
+            "count": 10105
+          },
+          {
+            "value": "NP0335101",
+            "count": 9763
+          },
+          {
+            "value": "NP0439101",
+            "count": 9439
+          },
+          {
+            "value": "NP0548303",
+            "count": 5516
+          },
+          {
+            "value": "NP0331201",
+            "count": 4686
+          }
+        ]
+      },
+      {
+        "name": "adm3_name",
+        "type": "VARCHAR",
+        "oex:null_count": 103,
+        "oex:null_percent": 0.02,
+        "oex:distinct_count": 728,
+        "oex:top_values": [
+          {
+            "value": "Kathmandu",
+            "count": 10105
+          },
+          {
+            "value": "Bharatpur",
+            "count": 9763
+          },
+          {
+            "value": "Pokhara",
+            "count": 9439
+          },
+          {
+            "value": "Tilottama",
+            "count": 5516
+          },
+          {
+            "value": "Godawari",
+            "count": 5040
+          }
+        ]
+      },
+      {
+        "name": "adm4_pcode",
+        "type": "VARCHAR",
+        "oex:null_count": 614087,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "adm4_name",
+        "type": "VARCHAR",
+        "oex:null_count": 614087,
+        "oex:null_percent": 100.0,
+        "oex:distinct_count": 0,
+        "oex:top_values": []
+      },
+      {
+        "name": "name_latin",
+        "type": "VARCHAR",
+        "oex:null_count": 592646,
+        "oex:null_percent": 96.51,
+        "oex:distinct_count": 10263,
+        "oex:top_values": []
+      }
+    ],
+    "datetime": "2026-10-07T00:00:00Z"
+  },
+  "links": [
+    {
+      "rel": "license",
+      "href": "https://opendatacommons.org/licenses/odbl/1-0/",
+      "title": "Open Database License (ODC-ODbL)"
+    },
+    {
+      "rel": "root",
+      "href": "https://production-raw-data-api.s3.amazonaws.com/ISO3/catalog.json",
+      "type": "application/json"
+    }
+  ],
+  "assets": {}
+}
