@@ -7,13 +7,8 @@ venv/
 env/
 .env
 
-# Large Raw Datasets (Exceeds GitHub Free 100MB / LFS Quota)
+# Raw archive bundles (already unzipped in data/ folder)
 *.zip
-terraflood/data/roads/*.dbf
-terraflood/data/roads/*.shp
-terraflood/data/roads/*.shx
-terraflood/data/roads/*.cpg
-terraflood/data/roads/*.prj
 
 # Runtime Cache & Exports
 terraflood/cache/
